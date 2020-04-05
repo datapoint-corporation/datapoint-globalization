@@ -1,0 +1,23 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <RootNamespace>Datapoint.Globalization</RootNamespace>
+    <Nullable>enable</Nullable>
+
+	<!-- Assembly and NuGet definitions -->
+	<Version>2.0.0</Version>
+	<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Authors>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Authors>
+	<Description>Go global with this simple library for currency formatting, number formatting and message translation supporting a wide range of customization through custom factory implementations.</Description>
+	<Copyright>2020 Datapoint - Sistemas de Informação, Unipessoal, Lda.</Copyright>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/datapoint-corporation/datapoint-globalization/</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/datapoint-corporation/datapoint-globalization/</RepositoryUrl>
+	<RepositoryType>GIT</RepositoryType>
+	<PackageTags>Globalization,Translation,Machine,Object,Gettext,Format,Number,Message,Currency</PackageTags>
+  </PropertyGroup>
+
+</Project>

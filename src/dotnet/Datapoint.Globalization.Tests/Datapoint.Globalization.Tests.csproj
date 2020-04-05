@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Datapoint.MachineObject" Version="2.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Datapoint.Globalization.Abstractions\Datapoint.Globalization.Abstractions.csproj" />
+    <ProjectReference Include="..\Datapoint.Globalization.Environment\Datapoint.Globalization.Environment.csproj" />
+    <ProjectReference Include="..\Datapoint.Globalization.MachineObject\Datapoint.Globalization.MachineObject.csproj" />
+    <ProjectReference Include="..\Datapoint.Globalization\Datapoint.Globalization.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="messages\pt-PT\default.mo">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="messages\pt\default.mo">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

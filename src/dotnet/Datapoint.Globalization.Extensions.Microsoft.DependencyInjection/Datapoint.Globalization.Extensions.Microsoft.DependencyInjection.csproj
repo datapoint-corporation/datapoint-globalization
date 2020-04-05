@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <RootNamespace>Datapoint.Globalization</RootNamespace>
+
+	<!-- Assembly and NuGet definitions -->
+	<Version>2.0.0</Version>
+	<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Authors>Datapoint - Sistemas de Informação, Unipessoal, Lda.</Authors>
+	<Description>Go global with this simple library for currency formatting, number formatting and message translation supporting a wide range of customization through custom factory implementations.</Description>
+	<Copyright>2020 Datapoint - Sistemas de Informação, Unipessoal, Lda.</Copyright>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/datapoint-corporation/datapoint-globalization/</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/datapoint-corporation/datapoint-globalization/</RepositoryUrl>
+	<RepositoryType>GIT</RepositoryType>
+	<PackageTags>Globalization,Translation,Machine,Object,Gettext,Format,Number,Message,Currency</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Datapoint.Globalization.Abstractions\Datapoint.Globalization.Abstractions.csproj" />
+    <ProjectReference Include="..\Datapoint.Globalization\Datapoint.Globalization.csproj" />
+  </ItemGroup>
+
+</Project>
